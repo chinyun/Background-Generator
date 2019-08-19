@@ -5,7 +5,6 @@ const colorPickerLeft = document.getElementById("color-picker-left");
 
 const colorRight = document.getElementById("color-right");
 const colorPickerRight = document.getElementById("color-picker-right");
-// colorPickerRight.style.backgroundColor = colorRight.value;
 
 const body = document.getElementById("gradient");
 
@@ -22,7 +21,5 @@ function pickColor(){
 	css.textContent = body.style.background + ";" ;
 }
 
-
 colorLeft.addEventListener("input", pickColor);
-
 colorRight.addEventListener("input", pickColor);
